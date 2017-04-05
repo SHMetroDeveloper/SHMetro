@@ -1,0 +1,25 @@
+workspace 'Myworkspace'
+
+project 'client_ios_fm_a.xcodeproj'
+project 'FMLibraryUI/FMLibraryUI.xcodeproj'
+
+platform :ios, '7.0'
+
+target 'client_ios_fm_a' do
+pod 'MWPhotoBrowser'
+pod 'pop', '~> 1.0'
+pod 'AMap3DMap'
+pod 'AMapSearch'    #定位
+pod 'AMapLocation'  #地图SDK搜索
+project 'client_ios_fm_a.xcodeproj'
+end
+
+target 'FMLibraryUI' do
+pod 'MWPhotoBrowser'
+pod 'pop', '~> 1.0' #popAnimation
+pod 'AMap3DMap'
+pod 'AMapSearch'    #定位
+pod 'AMapLocation'  #地图SDK搜索
+project 'FMLibraryUI/FMLibraryUI.xcodeproj'
+end
+

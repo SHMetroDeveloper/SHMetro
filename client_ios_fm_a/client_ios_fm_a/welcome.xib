@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wpq-MY-TWN">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="8" right="8"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome_title.png" translatesAutoresizingMaskIntoConstraints="NO" id="7iS-Gs-yQ9">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="262" id="TQR-u1-Lhr"/>
+                        <constraint firstAttribute="height" constant="43" id="iwi-wl-iZd"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="TQR-u1-Lhr"/>
+                            <exclude reference="iwi-wl-iZd"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="TQR-u1-Lhr"/>
+                            <include reference="iwi-wl-iZd"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="b2i-P8-uqy">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="39" id="VYe-5E-StR"/>
+                        <constraint firstAttribute="height" constant="39" id="oai-fu-BF6"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="VYe-5E-StR"/>
+                            <exclude reference="oai-fu-BF6"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="VYe-5E-StR"/>
+                            <include reference="oai-fu-BF6"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.1764705882" green="0.60392156860000001" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Wpq-MY-TWN" firstAttribute="centerX" secondItem="7iS-Gs-yQ9" secondAttribute="centerX" id="ATE-Ma-vYw"/>
+                <constraint firstItem="Wpq-MY-TWN" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="GUQ-9p-6GF"/>
+                <constraint firstItem="7iS-Gs-yQ9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PiI-uR-Jty"/>
+                <constraint firstItem="7iS-Gs-yQ9" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fRB-4t-KrJ">
+                    <variation key="heightClass=regular" constant="-193.5"/>
+                </constraint>
+                <constraint firstItem="7iS-Gs-yQ9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="69" id="jXI-T4-sLm"/>
+                <constraint firstItem="Wpq-MY-TWN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oJ4-zF-gOa"/>
+                <constraint firstAttribute="bottom" secondItem="b2i-P8-uqy" secondAttribute="bottom" constant="20" id="te8-Td-xUd"/>
+                <constraint firstItem="Wpq-MY-TWN" firstAttribute="centerX" secondItem="b2i-P8-uqy" secondAttribute="centerX" id="waB-O6-JJU"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Wpq-MY-TWN"/>
+                    <exclude reference="7iS-Gs-yQ9"/>
+                    <exclude reference="b2i-P8-uqy"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular">
+                <mask key="subviews">
+                    <include reference="Wpq-MY-TWN"/>
+                    <include reference="7iS-Gs-yQ9"/>
+                    <include reference="b2i-P8-uqy"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="379" y="347"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="welcome_image.png" width="714" height="169"/>
+        <image name="welcome_logo.png" width="220" height="334"/>
+        <image name="welcome_title.png" width="513" height="104"/>
+    </resources>
+</document>

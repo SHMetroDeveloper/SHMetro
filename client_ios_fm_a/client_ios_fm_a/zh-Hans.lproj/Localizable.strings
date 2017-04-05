@@ -1,0 +1,139 @@
+/* 
+  Localizable.strings
+  client_ios_fm_a
+
+  Created by 杨帆 on 16/2/1.
+  Copyright © 2016年 flynn. All rights reserved.
+*/
+{
+    //公用
+    
+    //2017-3-7
+    //我的签到记录
+    "my_attendance_record_name" = "签到值班员：";
+    "my_attendance_record_location" = "签到位置：";
+    "my_attendance_record_time" = "签到时间：";
+    "my_attendance_record_no_data" = "暂无签到记录";
+    
+    //我的二维码
+    "my_qrcode_describe" = "扫描我可进行签到";
+    
+    //核心组件
+    "core_component_base_info_code" = "编码：";
+    "core_component_base_info_name" = "名称：";
+    "core_component_base_info_brand" = "品牌：";
+    "core_component_base_info_model" = "型号：";
+    "core_component_base_info_period" = "质保期：";
+    "core_component_base_info_installDate" = "安装日期：";
+    "core_component_base_info_expireDate" = "质保日期：";
+    "core_component_base_info_replaceDate" = "被替换日期：";
+    
+    "core_component_record_code" = "设备编码：";
+    "core_component_record_handler" = "操作人：";
+    "core_component_record_operatetime" = "操作时间：";
+    "core_component_record_brand" = "品牌：";
+    "core_component_record_model" = "型号：";
+    "core_component_record_period" = "质保周期：";
+    "core_component_record_installdate" = "安装时间：";
+    "core_component_record_expireddate" = "质保到期：";
+    
+    "core_component_navi_title" = "核心组件详情";
+
+    "core_component_replace_no" = "更换前";
+    "core_component_replace_yes" = "更换后";
+    
+    "core_component_section_baseinfo" = "基本信息";
+    "core_component_section_replace_record" = "设备更换记录";
+    
+    "patrol_target" = "巡检记录";
+    "core_component_target" = "核心组件";
+    
+    "navi_title_patrol" = "巡检记录";
+    "navi_title_core_component" = "核心组件";
+    
+    "asset_record_patrol_none" = "暂无巡检记录";
+    "asset_record_core_component_none" = "暂无核心组件";
+    
+    //资产详情
+    "equipment_header_title_undo_patrol" = "待处理巡检任务";
+    "equipment_header_title_undo_workorder" = "待处理工单";
+    "equipment_header_btn_undo_patrol_syn" = "同步";
+    
+    
+    //快速报障
+    "quick_report_navi_title" = "快速报障";
+    
+    "function_quick_report" = "快速报障";
+    
+    "quick_report_section_title_baseinfo" = "基本信息";
+    "quick_report_section_title_equipment" = "故障设备";
+    "quick_report_section_title_audio" = "语音";
+    "quick_report_section_title_photo" = "图片";
+    "quick_report_section_title_video" = "视频";
+    "quick_report_section_title_desc" = "故障描述";
+    
+    "quick_report_equipment_code" = "设备编码：";
+    "quick_report_equipment_name" = "设备名称：";
+    "quick_report_equipment_location" = "站点：";
+    
+    //需求详情
+    "requirement_location" = "站点:";
+    "requirement_section_title_equipment" = "故障设备";
+    
+    //flynn 2017-03-08
+    "order_equipment_status_placeholder" = "点击选择设备状态";
+    "order_equipment_repair_type_placeholder" = "点击选择维修类型";
+    "order_equipment_header_core" = "核心组件";
+    
+    //2017-3-9
+    "function_scanner" = "扫一扫";
+    
+    //flynn 2017-03-10
+    "order_equipment_component_replace" = "核心组件更换";
+    "order_equipment_component_operation_replace" = "更换";
+    "order_equipment_component_notice_code_empty" = "编号不能为空";
+    "order_equipment_component_notice_name_empty" = "名称不能为空";
+    
+    "asset_core_component_code" = "编码";
+    "asset_core_component_code_placeholder" = "请输入编码";
+    "asset_core_component_name" = "名称";
+    "asset_core_component_name_placeholder" = "请输入名称";
+    "asset_core_component_brand" = "品牌";
+    "asset_core_component_brand_placeholder" = "请输入品牌";
+    "asset_core_component_model" = "型号";
+    "asset_core_component_model_placeholder" = "请输入型号";
+    "asset_core_component_period" = "质保期";
+    "asset_core_component_period_desc" = "(单位:月)";
+    "asset_core_component_period_placeholder" = "请输入质保期";
+    "asset_core_component_install_date" = "安装日期";
+    "asset_core_component_install_date_placeholder" = "请选择安装日期";
+    "asset_core_component_expired_date" = "质保日期";
+    "asset_core_component_expired_date_placeholder" = "请选择质保日期";
+    
+    //flynn 2017-03-12
+    "patrol_task_type_inspection" = "巡检";
+    "patrol_task_type_patrol" = "巡视";
+    
+    //flynn 2017-03-13
+    "common_base_data_notice_need_update" = "发现需要更新的数据包，现在开始更新。";
+    "common_base_data_notice_downloading" = "正在下载基础数据，请稍后。";
+    
+    //jonzzs 2017-03-14
+    "attendance_success" = "签到成功";
+    "attendance_faile" = "签到失败，请检查你的网络。";
+    "attendance_not_station" = "非车站值班人员";
+    "attendance_not_outsource" = "非委外人员";
+    "attendance_qrcode_error" = "二维码有误";
+    
+    //flynn 2017-03-16
+    "info_select_failurereason" = "选择故障原因";
+    "attendance_notice_need_check" = "请先签到再处理任务。";
+    
+    "about_us_version_beta" = "测试版";
+    
+    //jonzzs 2017-03-28
+    "report_request_location" = "请填写位置信息。";
+    "report_request_description" = "请填写故障描述。";
+}
+
+

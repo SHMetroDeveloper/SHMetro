@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  client_ios_fm_a
+
+  Created by 杨帆 on 16/2/17.
+  Copyright © 2016年 flynn. All rights reserved.
+*/
+"CFBundleDisplayName" = "F-ONE";
+"NSPhotoLibraryUsageDescription" = "Pick image from album.";
+"NSBluetoothPeripheralUsageDescription" = "Try to use bluetooth.";
+"NSCameraUsageDescription" = "Try to take photo by camera.";
+"NSContactsUsageDescription" = "Try to use notification.";
+"NSMicrophoneUsageDescription" = "Try to use microphone.";

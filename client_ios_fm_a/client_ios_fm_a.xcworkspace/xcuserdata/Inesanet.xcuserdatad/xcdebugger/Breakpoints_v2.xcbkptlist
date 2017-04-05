@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "client_ios_fm_a/Metrosh/Test/TestMainViewController.m"
+            timestampString = "512472379.589603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-initViews"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "client_ios_fm_a/Metrosh/Test/TestSecondViewController.m"
+            timestampString = "512711894.267116"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "505"
+            endingLineNumber = "505"
+            landmarkName = "-didSelectCellWithIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FMLibraryUI/FMLibraryUI/Library/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "512567684.688745"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
+            landmarkName = "-requestWithMethod:URLString:parameters:error:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFHTTPRequestSerializer requestWithMethod:URLString:parameters:error:]"
+                  moduleName = "FMLibraryUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Inesanet/Desktop/SHMetro/client_ios_fm_a/FMLibraryUI/FMLibraryUI/Library/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "512711896.081015"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "313"
+                  endingLineNumber = "313"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFHTTPRequestSerializer requestWithMethod:URLString:parameters:error:]"
+                  moduleName = "FMLibraryUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Inesanet/Desktop/SHMetro/client_ios_fm_a/FMLibraryUI/FMLibraryUI/Library/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "512711896.082892"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "313"
+                  endingLineNumber = "313"
+                  offsetFromSymbolStart = "193">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FMLibraryUI/FMLibraryUI/Library/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "512567726.750923"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "329"
+            endingLineNumber = "329"
+            landmarkName = "-requestWithMethod:URLString:parameters:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FMLibraryUI/FMLibraryUI/Library/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "512567782.511638"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1288"
+            endingLineNumber = "1288"
+            landmarkName = "-requestBySerializingRequest:withParameters:error:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]"
+                  moduleName = "FMLibraryUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Inesanet/Desktop/SHMetro/client_ios_fm_a/FMLibraryUI/FMLibraryUI/Library/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "513057092.31756"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1288"
+                  endingLineNumber = "1288"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]"
+                  moduleName = "FMLibraryUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Inesanet/Desktop/SHMetro/client_ios_fm_a/FMLibraryUI/FMLibraryUI/Library/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "513057092.319973"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1288"
+                  endingLineNumber = "1288"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "client_ios_fm_a/Metrosh/Test/TestSecondViewController.m"
+            timestampString = "512711733.244193"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TestSecondViewController mainContainerView]"
+                  moduleName = "client_ios_fm_a"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Inesanet/Desktop/SHMetro/client_ios_fm_a/client_ios_fm_a/Metrosh/Test/TestSecondViewController.m"
+                  timestampString = "513057092.326065"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TestSecondViewController setMainContainerView:]"
+                  moduleName = "client_ios_fm_a"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Inesanet/Desktop/SHMetro/client_ios_fm_a/client_ios_fm_a/Metrosh/Test/TestSecondViewController.m"
+                  timestampString = "513057092.329542"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FMLibraryUI/FMLibraryUI/Oauth/OAuthFM.m"
+            timestampString = "512725601.051385"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "-loginWith:password:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__55-[PatrolBusiness requestPatrolTaskByPage:success:fail:]_block_invoke:PatrolBusiness.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[EquipmentDetailViewController queryUndoPatrolTask]:EquipmentDetailViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PatrolDBInsertTask taskProcessMethod]:BaseDataDownloader.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_patrolArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PatrolTaskDetailViewController gotoSpotView]:PatrolTaskDetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_curSpot">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  client_ios_fm_a
+
+  Created by 杨帆 on 16/2/17.
+  Copyright © 2016年 flynn. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "设施通";
+"NSPhotoLibraryUsageDescription" = "从相册中选择图片。";
+"NSBluetoothPeripheralUsageDescription" = "使用蓝牙设备。";
+"NSCameraUsageDescription" = "使用相机拍照。";
+"NSContactsUsageDescription" = "使用推送, 拨打电话功能。";
+"NSMicrophoneUsageDescription" = "使用录音功能。";
